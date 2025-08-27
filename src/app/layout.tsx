@@ -1,10 +1,10 @@
-import "./globals.css";
 import type { Metadata } from "next";
-import Providers from "./providers";
+import "./globals.css";
+import Providers from "./Providers";
 
 export const metadata: Metadata = {
   title: "Sargiyim",
-  description: "Sargiyim tuhafiyenin modern vitrini",
+  description: "Sargiyim tuhafiyecilik",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
