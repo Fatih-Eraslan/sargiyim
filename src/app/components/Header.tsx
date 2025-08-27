@@ -9,10 +9,13 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-white shadow z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-green-600">Sargiyim</Link>
+        {/* Ana sayfa: Link ile */}
+        <Link href="/" className="text-2xl font-bold text-green-600">
+          Sargiyim
+        </Link>
 
         <nav className="flex items-center gap-6 font-medium">
-          {/* İç sayfalara Link kullan */}
+          {/* İç rotalara daima <Link/> */}
           <Link href="/#products" className="hover:text-green-600">Ürünler</Link>
           <Link href="/#about" className="hover:text-green-600">Hakkımızda</Link>
           <Link href="/#contact" className="hover:text-green-600">İletişim</Link>
